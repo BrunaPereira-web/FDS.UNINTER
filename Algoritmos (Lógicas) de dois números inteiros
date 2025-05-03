@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPTXgPCfvjHGIPzCNV9AOXt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/BrunaPereira-web/FDS.UNINTER/blob/main/Algoritmos%20(L%C3%B3gicas)%20de%20dois%20n%C3%BAmeros%20inteiros\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Sz2g550A2PHn",
+        "outputId": "cb9172e4-0daa-4943-82a8-af00197ca2a9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um numero inteiro: 78\n",
+            "Digite outro numero inteiro: 60\n",
+            "O resultado da multilicação de 78 com 60 é 4680.\n"
+          ]
+        }
+      ],
+      "source": [
+        "x = int(input(\"Digite um numero inteiro: \"))\n",
+        "y = int(input(\"Digite outro numero inteiro: \"))\n",
+        "res = f\"O resultado da multilicação de {x} com {y} é {x*y}.\"\n",
+        "print(res)\n"
+      ]
+    }
+  ]
+}
